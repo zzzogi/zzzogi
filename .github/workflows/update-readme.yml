@@ -2,7 +2,7 @@ name: Update profile README
 
 on:
   schedule:
-    - cron: "0 */2 * * *" # chạy mỗi 2 tiếng (UTC)
+    - cron: "0 */24 * * *" # chạy mỗi 2 tiếng (UTC)
   workflow_dispatch: # cho phép bấm chạy tay trong tab Actions
 
 jobs:
